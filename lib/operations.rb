@@ -1,7 +1,9 @@
 def unsafe?(speed)
   if speed > 60 
-    puts 
-
+    puts "answer"
+  else 
+    speed < 60
+    puts "unsafe"
 end
 
 
